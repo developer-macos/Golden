@@ -9,7 +9,6 @@
 
 .golden-logo{
     color: var(--main-color);
-    font: italic;
     font-family: "Bilbo Swash Caps", cursive;
   font-weight: 400;
   font-style: normal;
@@ -22,8 +21,26 @@ text-decoration: none;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .menu{
     display: inline-table;
+}
+
+.abel-par{
+      font-family: "Abel", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 826px;
+}
+
+.services{
+    margin-left: 856px;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font: bold;
+  font-size: 40px;
 }
