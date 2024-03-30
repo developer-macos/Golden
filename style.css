@@ -1,0 +1,29 @@
+:root {
+    --main-color: #FED136;
+    --other-color: #222222;
+    --footer-color: #FFFFFF;
+    --button-color: #FFFFFF;
+    --bacground-for-footer-color: #222222;
+    --same-thing-color: #BBBBBB;
+}
+
+.golden-logo{
+    color: var(--main-color);
+    font: italic;
+    font-family: "Bilbo Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header-menu a {
+    color: #FED136;
+text-decoration: none;
+ font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.menu{
+    display: inline-table;
+}
