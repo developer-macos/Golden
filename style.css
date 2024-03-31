@@ -29,6 +29,10 @@ text-decoration: none;
 align-items: center;
 }
 
+.header-menu{
+  list-style: none;
+}
+
 .menu{
     display: inline-table;
 }
