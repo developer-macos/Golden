@@ -24,60 +24,58 @@
 
 <body>
     <header class="header-menu">
-        <h2 class="golden-logo"><i>Golden</i></h2>
-        <section class="header-menu">
-            <a href="index.html">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-        </section>
+        <ul class="header-menu">
+            <h2 class="golden-logo"><i>Golden</i></h2>
+            <li><a href="index.html">Home</a></li>
+           <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </header>
     <main>
         <h2 class="services"><b>Services</b></h2>
         <p class="abel-par">Proin iaculis purus consequat sem cure.</p>
-        <ul>
-            <li><img src="./images/Combined-shape-134.png" alt="E-Commerce">
-                <h3>E-Commerce</h3>
+        <section class="services-list">
+            <img src="./images/Combined-shape-134.png" alt="E-Commerce" class="services-img">
+                <h3 class="services-titles">E-Commerce</h3>
                 <p>Proin iaculis purus consequat sem cure
                     <br> digni ssim. Donec porttitora entum suscipit <br> aenean rhoncus
                     posuere odio in
                     tincidunt.
                 </p>
-            </li>
-            <li><img src="./images/Combined-shape-132.png" alt="Responsive Web">
-                <h3>Responsive Web</h3>
+            <img src="./images/Combined-shape-132.png" alt="Responsive Web" class="services-img">
+                <h3 class="services-titles">Responsive Web</h3>
                 <p>Proin iaculis purus consequat sem cure <br> digni ssim. Donec porttitora entum suscipit <br> aenean
                     rhoncus posuere odio in
                     tincidunt.</p>
-            </li>
-            <li><img src="./images/Combined-shape-130.png" alt="Web Security">
-                <h3>Web Security</h3>
+            <img src="./images/Combined-shape-130.png" alt="Web Security" class="services-img">
+                <h3 class="services-titles">Web Security</h3>
                 <p>Proin iaculis purus consequat sem cure <br> digni ssim. Donec porttitora entum suscipit <br> aenean
                     rhoncus posuere odio in
                     tincidunt.</p>
-            </li>
-        </ul>
+                </section>
         <br> <br> <br>
     </main>
-    <footer>
-        <h3>Contact us</h3>
-        <p>Proin iaculis purus consequat sem cure.</p>
-        <form>
-            <label for="Your-Name">Your-Name</label>
-            <input id="Your-Name" type="text" placeholder="Vo&&">
+    <footer class="footer">
+        <h3 class="contact">Contact us</h3>
+        <p class="lorem">Proin iaculis purus consequat sem cure.</p>
+        <br><br>
+        <form class="form">
+            <label for="Your-Name"></label>
+            <input id="Your-Name" type="text" placeholder="YOUR NAME *">
             <br>
-            <label for="Email">Your-Email</label>
-            <input id="Email" type="email" placeholder="Your-Email">
+            <label for="Email"></label>
+            <input id="Email" type="email" placeholder="YOUR E-MAIL *">
             <br>
-            <label for="Subject">Subject</label>
+            <label for="Subject"></label>
             <input type="text" id="Subject" placeholder="SUBJECT">
             <br>
-            <label for="textarea">Leave a comment</label>
+            <label for="textarea"></label>
             <br>
-            <textarea id="textarea" cols="30" rows="10" placeholder="Write your message"></textarea>
+            <textarea id="textarea" cols="30" rows="10" placeholder="YOUR MESSAGE *"></textarea>
             <br>
-            <button type="submit">Send a message</button>
+            <button class="footer-button" type="submit">Send a message</button>
         </form>
     </footer>
 </body>
