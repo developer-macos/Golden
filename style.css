@@ -45,6 +45,7 @@
   font-style: normal;
   margin-left: 350px;
   margin: bottom 79px;
+  margin-top: 8.5px;
 }
 
 .services {
@@ -55,7 +56,6 @@
   font-style: normal;
   font: bold;
   font-size: 40px;
-  margin-bottom: 8.5px;
   width: 223px;
   height: 75px;
 }
