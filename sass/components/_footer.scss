@@ -1,0 +1,54 @@
+.footer {
+    background-color: $background-for-footer-color;
+    color: $button-color;
+    border-radius: 2px;
+    border: none;
+    .footer-container {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+        width: 933px;
+        align-items: center;
+        margin: 0 auto;
+        outline: 1px solid blue;
+      }
+      .contact {
+        margin-left: 500px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        padding-top: 92px;
+      }
+      .lorem {
+        color: $footer-lorem-color;
+        margin-left: 390px;
+      }
+      .name{
+        margin-bottom: 28px;
+        width: 455px;
+        height: 50px;
+      }
+      .footer-button {
+        background-color: $main-color;
+        color: #ffffff;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 18px;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+      }
+      .form {
+        background-color: #222222;
+      }
+      .email{
+        margin-bottom: 28px;
+        width: 457px;
+        height: 53px;
+      }    
+  }

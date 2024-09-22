@@ -1,0 +1,24 @@
+  .container {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    width: 933px;
+    align-items: center;
+    margin: 0 auto;
+    outline: 1px solid blue;
+    margin-bottom: 114px;
+    .golden-logo {
+      color: #fed136;
+      font-family: "Bilbo Swash Caps", cursive;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 36px;
+      align-items: center;
+    }
+    .container a {
+      text-decoration: none;
+      color: #fed136;
+    }
+  }
